@@ -25,7 +25,7 @@ td, th {
 .jumbotron {
     /*display: flex;*/
     background-color: #96b7c8;
-    background-image: url("img/cupNature.jpg");
+    background-image: url("img/closeup-coffee.jpg");
     background-size: cover;
     background-position: center;
     margin-top: 20px;
@@ -39,15 +39,36 @@ h1 {
     opacity: unset;
     font-weight: bolder;
 }
+.jumbotron h1 {
+    font-family: cursive;
+    color: #307373;
+    font-weight: bolder;
+     text-shadow: 2px 2px white;
+}
 .navbar {
    background-color: lightblue;
 }
 
-
+.card-body h1{
+    font-family: cursive;
+    color: #307373;
+    font-weight: bolder;
+}
+.card-body p {
+    font-family: "Brush Script MT";
+    font-size: 18pt;
+}
+.row .card {
+    background-color: rgb(189,180,209);
+    padding: 0;
+}
+#pastries p{
+    font-size: 30pt;
+}
 .card {
     height: 500px;
     width: 500px;
-    margin: 85px
+    margin: 30px
 }
 #coffees h1 {
     font-size: 20px;

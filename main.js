@@ -73,7 +73,7 @@ function addNewCoffee(input) {
     coffeesArray = JSON.parse(localStorage.getItem('coffees'));
     tbody.innerHTML = renderCoffees(coffees);
 }
-// localStorage.removeItem('coffees');
+localStorage.removeItem('coffees');
 //////
 
 
